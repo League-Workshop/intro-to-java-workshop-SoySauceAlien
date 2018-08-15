@@ -26,7 +26,7 @@ public class StephenHawking {
 	/* Don’t change this…. */
 	static void speak(String words) {
 		try {
-			Runtime.getRuntime().exec("say " + words).waitFor();
+			Runtime.getRuntime().exec("Beep Beep Lettuce " + words).waitFor();
 		}
 		 catch (Exception e) {
 			 e.printStackTrace();
