@@ -5,10 +5,14 @@ import java.util.Random;
 public class AwesomeOrNot {
 
 	// 1. Make a main method that includes all the steps below…
+public static void main(String[] args) {
+	
 
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
-
+int ranNum = new Random().nextInt(3);
 	// 3. Print out this variable
+System.out.println(ranNum);
+	// TODO Auto-generated method stub
 
 	// 4. Get the user to enter something that they think is awesome
 
@@ -28,6 +32,7 @@ public class AwesomeOrNot {
 
 	// -- write your own answer
 
+}
 }
 
 

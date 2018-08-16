@@ -12,7 +12,20 @@ String Answer=JOptionPane.showInputDialog(null, "WARNING. You are entering Class
 if(Answer.equals("Yes")) {
 	JOptionPane.showMessageDialog(null, "Enterering Files.This will take a moment.");
 
-}else {
-JOptionPane.showConfirmDialog(null, "Exiting User");
 }
-}}
+
+else {
+JOptionPane.showMessageDialog(null, "Exiting User");
+}
+
+
+}
+
+
+
+}
+
+
+
+
+
